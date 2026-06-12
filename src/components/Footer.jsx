@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer" role="contentinfo" itemScope itemType="https://schema.org/WPFooter">
       <div className="container">
         <p>
-          &copy; {year} <a href="https://sarjanp.in/" rel="author" style={{ color: 'inherit', textDecoration: 'none' }}>Sarjan P (SarjanP)</a> — AI Engineer &amp; Full Stack Developer from Dharmapuri, Tamil Nadu. Built with <i className="fas fa-heart heartbeat" aria-hidden="true"></i><span className="sr-only">love</span> using React &amp; Three.js
+          &copy; {year} <a href="https://sarjanp.in/" rel="author" style={{ color: 'inherit', textDecoration: 'none' }}>Sarjan P (SarjanP)</a> — AI Engineer &amp; Full Stack Developer from Dharmapuri, Tamil Nadu.
         </p>
         <nav aria-label="Footer navigation — Sarjan P social profiles" style={{ marginTop: '0.75rem', display: 'flex', justifyContent: 'center', gap: '1.5rem' }}>
           <a href="https://github.com/sarjanthecoder" target="_blank" rel="noopener noreferrer" aria-label="SarjanTheCoder on GitHub" style={{ color: 'inherit', opacity: 0.7, transition: 'opacity 0.3s' }} onMouseOver={(e) => e.target.style.opacity = 1} onMouseOut={(e) => e.target.style.opacity = 0.7}>

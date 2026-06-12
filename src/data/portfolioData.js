@@ -6,7 +6,7 @@ export const emailJsConfig = {
 
 export const statsData = [
   { label: "Years Experience", target: 2, icon: "fas fa-briefcase" },
-  { label: "Completed Projects", target: 50, icon: "fas fa-project-diagram" },
+  { label: "Completed Projects", target: 70, icon: "fas fa-project-diagram" },
   { label: "Technologies Mastered", target: 10, icon: "fas fa-code" },
   { label: "Satisfied Clients", target: 3, icon: "fas fa-users" }
 ];
