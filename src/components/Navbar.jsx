@@ -61,8 +61,9 @@ export default function Navbar({ currentTheme, setTheme }) {
         
         <div className="nav-right-group">
           <a 
-            href="#" 
-            onClick={(e) => { e.preventDefault(); triggerDownloadNotification(); }} 
+            href="/Sarjan_P_Resume.pdf" 
+            download="Sarjan_P_Resume.pdf"
+            onClick={() => triggerDownloadNotification()} 
             className="download-cv-btn" 
             id="download-cv"
           >
