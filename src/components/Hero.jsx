@@ -90,7 +90,7 @@ export default function Hero() {
           <div className="hero-image">
             <div ref={avatarRef} className="holographic-frame">
               <img
-                src="images/profile.jpg"
+                src="images/main.jpeg"
                 alt="Sarjan P — AI Engineer, Full Stack Developer and Software Engineer from Dharmapuri, Tamil Nadu, India"
                 width="400"
                 height="400"
