@@ -126,6 +126,17 @@ export default function Contact() {
             )}
           </form>
         </div>
+        
+        {/* Scroll to Top Button */}
+        <div className="scroll-top-wrapper">
+          <button 
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            className="scroll-top-btn"
+            aria-label="Scroll to top of page"
+          >
+            <i className="fas fa-chevron-up" aria-hidden="true"></i>
+          </button>
+        </div>
       </div>
     </section>
   );
